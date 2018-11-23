@@ -1,0 +1,99 @@
+/*
+	Cart Table Rulesets
+	===================
+	*/
+.simpleCart_items table{
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Montserrat", Arial, sans-serif;
+	color: black ;
+}
+
+.simpleCart_items th{
+	font-size: 125%;
+}
+
+.simpleCart_items tr{
+	border-bottom: 1px solid lightgray;
+}
+
+.simpleCart_items td {
+	padding: 10px;
+}
+
+/* 
+	Totals Table Rulesets
+	=====================
+	*/
+table.costs {
+	border: 1px black;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	/*margin-bottom:auto;*/
+	padding: 10px;
+	font-size: 110%;
+	text-align: center;
+	color: black;
+}
+
+td.costs {
+	padding: 10px;
+	text-align: right;
+}
+
+.button, a.simpleCart_increment, a.simpleCart_decrement, a.simpleCart_remove, a.item_add {
+	border: 2px solid #bd9765;
+	background: transparent;
+    color: #83613a;
+	padding: 12px 40px;
+	/*text-decoration-line:none;*/
+	margin-right: 4px;
+  	margin-bottom: 4px;
+  	font-family: "Montserrat", Arial, sans-serif;
+ 	font-size: 16px;
+  	font-weight: 400;
+  	-webkit-border-radius: 2px;
+  	-moz-border-radius: 2px;
+  	-ms-border-radius: 2px;
+  	border-radius: 2px;
+  	-webkit-transition: 0.5s;
+  	-o-transition: 0.5s;
+  	transition: 0.5s;
+  	/*width: 350px;*/
+  	
+	}
+
+.button:hover, .button:active, .button:focus {
+  background: #bd9765 !important;
+  border-color: #bd9765 !important;
+
+}
+
+.item_price {
+	font-size:120%;
+	padding: 10px;
+	font-weight: 200;
+	color: black;
+
+}
+
+.item_add {
+	padding-top:20px;
+
+}
+
+.shop_section
+{
+	font-size: 200%;
+}
+
+/*.checkout_done {*/
+/*	margin-bottom: 20px;*/
+/*	margin-right: auto;*/
+/*	margin-left: auto;*/
+/*	font-family: "Montserrat", Arial, sans-serif;*/
+/*	color: black ;*/
+/*}*/
